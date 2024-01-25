@@ -1,0 +1,35 @@
+div header,nav,footer {
+    height: 50px;
+    text-align: center;
+}
+
+main {
+    overflow: hidden;
+    border: 1px solid black;
+}
+main section {
+    min-height: 600px;
+    float:left;
+    width:80%;
+}
+
+aside{
+    height:600px;
+    width:10%;
+}
+
+.left{
+    float:left;
+    background-color: black;
+}
+.right{
+    float:right;
+    background-color: black;
+}
+nav form{
+    display: inline-block;
+}
+
+div textarea{
+    max-height: 300px;
+}
